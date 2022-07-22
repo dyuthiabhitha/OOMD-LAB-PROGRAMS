@@ -1,0 +1,29 @@
+
+Lab1: College Management SRS document.
+System created to manage college day to day activities which include management of employees and students. It also involves managing the activities of the library like managing books and library record. It involves other activities like assigning assignments, publishing exam results ,fee collection, attendance and timetable management.
+Classes with attributes and functions are as follows:
+SuperAdmin :
+-	Username, password
+-	add_college,view_college,delete_college
+College:
+-	clg_name,clg_address,clg_id
+-	branches
+Admin:
+-	admin_id
+-	add_timetable,add_eventdetails,add_teacher,add_student,add_librarian,view_bookrequest,new_user
+Student:
+-	usn,dept
+-	view_profile,view_book,view_timetable,view_assignment,view_results,view_events,view_attendance
+Teacher:
+-	t_id,dept
+-	add_assignment,mark_attendance,upload_result,view_event
+Course:
+-	c_id,cname,dept,teacher_name
+-	get_enrolled
+
+
+Librarian:
+-	l_id
+-	add_books,view_books,request_books,issue_books,return_books
+Book:
+-	isbn,bname,bauthor,bprice
